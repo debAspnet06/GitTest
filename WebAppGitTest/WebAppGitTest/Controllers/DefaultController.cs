@@ -11,6 +11,7 @@ namespace WebAppGitTest.Controllers
         // GET: Default
         public ActionResult Index()
         {
+            Session["NAME"] = "HELLO WORLD";
             return View();
         }
     }
